@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latoregular.woff2") format("woff2"), url("../fonts/latoregular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latomedium.woff2") format("woff2"), url("../fonts/latomedium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latoblack.woff2") format("woff2"), url("../fonts/latoblack.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+body{
+    font-family: Larsseit;
+    font-weight: 400;
+}
+
+.header-text > p > span{
+    font-weight: 700;
+}
+
+h1 + p {
+    color: red;
+}
+
+h1{
+    font-family: Lato;
+    font-weight: 700;
+}
+
+.header-nav li{
+    color:blue;
+    font-weight: 700;
+}
+
+.header-nav h3{
+    font-weight: 700;
+}
+
+.content-block.progress li{
+    color:green;
+    font-weight: 700;
+}
+
+#learn-progess,
+#deep,
+#standards-thinks,
+#theory-practice,
+#understandable,
+#learn {
+    font-weight: 700;
+    font-family: Roboto;
+}
+
+.content-block.progress .content-text a{
+    font-weight: 700;
+    color:red;
+}
+
+.content-block.dive-deep .content-text span{
+    color:aqua;
+}
+
+.content-block.dive-deep .content-text li {
+    font-weight: 700;
+}
+
+.content-block.theory-practice .content-text li{
+    color:blueviolet;
+    font-weight: 500;
+}
+
+.content-block.understandable-code .content-text > p {
+    color:brown;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+h5 ~ ul {
+    color:brown;
+    font-family: Lato;
+}
