@@ -1,0 +1,266 @@
+/* ====================== ШРИФТИ =============================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700&display=swap');
+
+@font-face {
+	font-family: "BebasNeue";
+	src: url("../fonts/BebasNeue-Regular.woff2") format("woff2"), url("../fonts/BebasNeue-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "BebasNeue";
+	src: url("../fonts/BebasNeue-Bold.woff2") format("woff2"), url("../fonts/BebasNeue-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+body{
+    font-family: "BebasNeue";
+	font-size: 24px;
+	width: 1180px;
+	margin: 50px auto;
+	line-height: 1.2;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: 700;
+	font-size: 36px;
+	text-shadow: 2px 2px 5px rgb(160, 143, 143);
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	word-spacing: 10px;
+	font-family: "Montserrat Alternates";
+}
+
+.smoothness p {
+	text-align: right;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.smoothness span{
+	font-weight: 700;
+	color:rgb(57, 7, 7);
+}
+
+.smoothness li{
+	padding: 10px 0 10px 25px;
+	text-decoration: underline;
+	font-size: 22px;
+}
+
+.main-content img{
+	width: 500px;
+	margin: 25px 25% 25px 25%;
+}
+
+.flashback h2{
+	font-family: "Montserrat Alternates";
+	font-weight: 700;
+	padding: 20px 0;
+	word-spacing: 6px;
+	text-shadow: 2px 2px 3px rgb(208, 193, 193);
+	color:rgb(44, 37, 50);
+}
+
+.flashback p{
+	margin-bottom: 13px;
+	word-spacing: 5px;
+	letter-spacing: 0.5px;
+}
+
+.flashback li{
+	padding: 3px 25px;
+	font-size: 22px;
+}
+
+.flashback li span{
+	font-weight: 700;
+}
+
+.way h2{
+	font-family: "Montserrat Alternates";
+	font-weight: 700;
+	padding: 20px 0;
+	word-spacing: 6px;
+	text-shadow: 2px 2px 3px rgb(208, 193, 193);
+	color:rgb(44, 37, 50);
+}
+
+.way p{
+	margin-bottom: 13px;
+	word-spacing: 5px;
+	letter-spacing: 0.5px;
+}
+
+.way li{
+	padding: 3px 10px;
+	font-size: 22px;
+}
+
+.way ol{
+	margin-bottom: 15px;
+}
+
+.reflow-repaint h2{
+	font-family: "Montserrat Alternates";
+	font-weight: 700;
+	padding: 20px 0;
+	word-spacing: 6px;
+	text-shadow: 2px 2px 3px rgb(208, 193, 193);
+	color:rgb(19, 14, 24);
+}
+
+.reflow-repaint p{
+	margin-bottom: 13px;
+	word-spacing: 5px;
+	letter-spacing: 0.5px;
+}
+
+.composition h2{
+	font-family: "Montserrat Alternates";
+	font-weight: 700;
+	padding: 20px 0;
+	word-spacing: 6px;
+	text-shadow: 2px 2px 3px rgb(208, 193, 193);
+	color:rgb(19, 14, 24);
+}
+
+.composition p{
+	margin-bottom: 13px;
+	word-spacing: 5px;
+	letter-spacing: 0.5px;
+}
+
+.composition li{
+	padding: 3px 25px;
+	font-size: 22px;
+}
+
+.speed h2{
+	font-family: "Montserrat Alternates";
+	font-weight: 700;
+	padding: 20px 0;
+	word-spacing: 6px;
+	text-shadow: 2px 2px 3px rgb(208, 193, 193);
+	color:rgb(2, 10, 18);
+}
+
+.speed p{
+	margin-bottom: 13px;
+	word-spacing: 5px;
+	letter-spacing: 0.5px;
+}
+
+.speed li{
+	padding: 3px 25px;
+	font-size: 22px;
+}
+
+.speed li a{
+	text-decoration: underline;
+	color: blue;
+}
+
+
+.speed ol,
+.speed ul{
+	margin: 25px 0;
+}
+
+.speed ol span{
+	background-color: rgb(152, 124, 124);
+}
+
+.speed p span{
+	font-weight: 700;
+}
+
+.track h2{
+	font-family: "Montserrat Alternates";
+	font-weight: 700;
+	padding: 20px 0;
+	word-spacing: 6px;
+	text-shadow: 2px 2px 3px rgb(208, 193, 193);
+	color:rgb(2, 10, 18);
+}
+
+.track p{
+	margin-bottom: 13px;
+	word-spacing: 5px;
+	letter-spacing: 0.5px;
+}
+
+.track h3{
+	font-weight: 700;
+	padding: 10px 0;
+}
+
+.content-subblock p span{
+	font-weight: 700;
+}
+
+.differences h2{
+	font-family: "Montserrat Alternates";
+	font-weight: 700;
+	padding: 20px 0;
+	word-spacing: 6px;
+	text-shadow: 2px 2px 3px rgb(208, 193, 193);
+	color:rgb(2, 10, 18);
+}
+
+.differences p{
+	margin-bottom: 13px;
+	word-spacing: 5px;
+	letter-spacing: 0.5px;
+}
+
+.differences span{
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.content-block.plus p{
+	color:rgb(36, 193, 54);
+}
+
+.content-block.minus p{
+	color:rgb(188, 44, 44);
+}
+
+.conclusions h2{
+	font-family: "Montserrat Alternates";
+	font-weight: 700;
+	padding: 20px 0;
+	word-spacing: 6px;
+	text-shadow: 2px 2px 3px rgb(208, 193, 193);
+	color:rgb(2, 10, 18);
+}
+
+.conclusions li{
+	padding: 3px 25px;
+	font-size: 22px;
+}
+
+.conclusions ol{
+	margin: 5px 0 20px 0;
+}
+
+.footer-content {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.footer-content span{
+	text-decoration: line-through;
+}
+
+.footer-content a{
+	text-decoration: underline;
+}
