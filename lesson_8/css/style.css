@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body{
+    font-family: "Lato";
+    line-height: 1.6;
+    color: #424551;
+}
+
+[class*="__container"]{
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.page__title{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    color: #1E212C;
+    margin-bottom: 40px;
+}
+
+.first-block p{
+    margin-bottom: 48px;
+}
+
+.first-block h3{
+    font-weight: 700;
+    font-size: 28px;
+    color: #1E212C;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.first-block li::before{
+    content: "";
+    padding-left: 32px;
+    background: url('../img/icons/check.svg') 0 0 no-repeat;
+    width: 16px;
+	height: 16px;
+}
+
+.first-block li:not(:last-child){
+    padding-bottom: 4px;
+}
+
+.first-block{
+    margin-bottom: 200px;
+}
+
+.second-block h6{
+    color: #1E212C;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.second-block h2{
+    color: #1E212C;
+    font-weight: 900;
+    line-height: 1.3;
+    font-size: 46px;
+    margin-bottom: 16px;
+}
+
+.second-block span{
+    display: inline-block;
+    margin-bottom: 32px;
+    color: #787A80;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.second-block ul{
+    margin-bottom: 32px;
+}
+
+/* Думал обернуть строку каждую в спан с отдельным классом, и к ней уже сделать before,
+ но решил попробовать так как ниже, не считается ошибкой? Для експеримента. */
+
+.second-block li:first-child::before{
+    content: "";
+    padding-left: 24px;
+    background: url('../img/icons/star.svg') 0 0 no-repeat;
+}
+
+.second-block li:last-child::before{
+    content: "";
+    padding-left: 24px;
+    background: url('../img/icons/human.svg') 0 0 no-repeat;
+}
+
+.second-block li:nth-child(2)::before{
+    content: "";
+    padding-left: 24px;
+    background: url('../img/icons/play.svg') 0 0 no-repeat;
+}
+
+.second-block li{
+    font-weight: 700;
+}
+
+.second-block li:not(:last-child){
+    padding-bottom: 4px;
+}
+
+.second-block{
+    margin-bottom: 200px;
+}
+
+.footer p{
+    font-weight: 900;
+    color:black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* ========== Отработка навыков с урока №8 ========== */
+
+.test-block__container{
+    font-family: "Roboto";
+    line-height: 1.5;
+    color:black;
+}
+
+.text-block h2{
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 22px;
+    text-shadow: 2px 2px 2px rgb(156, 144, 144);
+    margin-bottom: 50px;
+}
+
+.hover-block p:hover{
+    background-color: rgb(162, 48, 48);
+}
+
+/* .hover-block a:hover{
+    background-color: rgb(61, 162, 48);
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: inline-block;
+} */
+
+.hover-block ul ul{
+    display: none;
+}
+
+.hover-block ul li:hover ul{
+    display: block;
+}
+
+.hover-block span:active{
+    color:green;
+}
+
+.visited-block a:visited{
+    /* font-weight: 700; */
+    color: green;
+}
+
+.test-block__container{
+    margin-bottom: 250px;
+}
+
+input{
+    outline: 2px solid rgba(204, 255, 0, 0.318);
+    margin-bottom: 50px;
+}
+
+input:focus{
+    outline: 2px solid rgba(204, 255, 0, 0.915);
+    /* background: url('../img/04.jpg') 0 0 no-repeat; */
+    background-color: rgb(199, 203, 153);
+}
+
+/* .child-block p:not(:last-child){
+    margin-bottom: 25px;
+} */
+
+.child-block p:last-child{
+    text-transform: uppercase;
+    background-color: rgb(146, 43, 43);
+}
+
+.child-block p:first-child{
+    text-decoration: underline;
+    background-color: rgb(43, 146, 53);
+}
+
+.child-block p:first-child{
+    text-decoration: underline;
+    background-color: rgb(43, 146, 53);
+}
+
+.child-block{
+    margin-bottom: 50px;
+}
+
+.type-block p:not(:last-child){
+    margin-bottom: 20px;
+}
+
+/* .type-block p:first-of-type{
+    color:#787A80;
+    font-weight: 700;
+    background-color:rgba(204, 255, 0, 0.915);
+} */
+
+.type-block p:last-of-type{
+    color:#11235a;
+    background-color:rgba(189, 88, 29, 0.915);
+}
+
+.type-block p:nth-child(odd){
+    color:#11235a;
+    background-color:rgba(19, 11, 7, 0.915);
+}
+
+.type-block p:nth-child(2){
+    color:#215a11;
+    background-color:rgba(49, 46, 216, 0.915);
+}
