@@ -1,0 +1,65 @@
+body {
+    background: url('../img/bridge4.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.page__mattress img{
+    position: absolute;
+    top: 500px;
+    left: 40px;
+    width: 400px;
+}
+
+.page__himars{
+    position: relative;
+}
+.page__himars img{
+    position: absolute;
+    width: 500px;
+    top: 400px;
+    left: -85px;
+}
+
+.page__human img{
+    position: absolute;
+    width: 90px;
+    left: 275px;
+    top: 405px;
+}
+
+.page__first-rocket img{
+    position: absolute;
+    width: 200px;
+    left: 190px;
+    top: 320px;
+}
+
+.page__second-rocket img{
+    position: absolute;
+    width: 200px;
+    left: 450px;
+    top: 300px;
+}
+
+.page__third-rocket img{
+    position: absolute;
+    width: 200px;
+    left: 325px;
+    top: 220px;
+}
+
+.page__first-rocket img:hover{
+    transition: 3s;
+    left: 300px
+}
+
+.page__second-rocket img:hover{
+    transition: 3s;
+    left: 600px
+}
+
+.page__third-rocket img:hover{
+    transition: 3s;
+    left: 700px
+}
