@@ -1,0 +1,59 @@
+.header{
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 0;
+	z-index: 50;
+}
+
+.header__container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.header__logo {
+}
+.header__menu {
+    flex-grow: 1;
+}
+.header__actions {
+}
+
+.menu {
+}
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 15px;
+}
+.menu__item {
+}
+.menu__link {
+    font-weight: 700;
+}
+.menu__link:hover{
+    text-decoration: underline;
+}
+
+
+.actions-header {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+.actions-header__button {
+}
+.actions-header__auth {
+    background: url('../img/icons/login.svg') left no-repeat;
+    padding-left: 28px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.actions-header__auth span:hover{
+    text-decoration: underline;
+}
