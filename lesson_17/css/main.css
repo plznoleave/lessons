@@ -278,13 +278,6 @@
     bottom: 24%;
     left: 38%;
 }
-.decor-main__item--5 {
-    background: url('../img/icons/decor/05.svg') 0 0 no-repeat;
-    width: 187px;
-    height: 137px;
-    right: -1.5%;
-    bottom: 18%;
-}
 .decor-main__item--6 {
     background: url('../img/icons/decor/01.svg') 0 0 no-repeat;
     width: 96px;
@@ -294,5 +287,14 @@
     transform: rotate(135deg);
 }
 
+@media (min-width: 500.98px){
+    .decor-main__item--5 {
+    background: url('../img/icons/decor/05.svg') 0 0 no-repeat;
+    width: 187px;
+    height: 137px;
+    right: -1.5%;
+    bottom: 18%;
+}
+}
             /* ============================== ABOUT-BLOCK ============================== */
 
