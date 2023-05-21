@@ -1,4 +1,4 @@
-# html-css-course
+# html-css-js-course
 My homeworks from the HTML, CSS, JS course.
 
 Course: HTML CSS JS course Freelancer LifeStyle.
